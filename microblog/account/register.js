@@ -1,23 +1,49 @@
-"use strict"
+"use strict";
 
+window.onload = function () {
+  const registerForm = document.querySelector("#register");
+  const apiBaseURL1 = "https://microblog-api.herokuapp.com";
 
-const registerForm = document.querySelector("#register");
-
-registerForm.onsubmit = function (event) {
-    // Prevent the form from refreshing the page,
-    // as it will do by default when the Submit event is triggered:
+  registerForm.onsubmit = function (event) {
     event.preventDefault();
 
-    // We can use loginForm.username (for example) to access
-    // the input element in the form which has the ID of "username".
-    const registerData = {
-        username: registerForm.username.value,
-        password: registerForm.password.value,
+    const fullName = registerForm.fullName.value;
+    const username = registerForm.username.value;
+    const password = registerForm.password.value;
+    const passwordRepeat = registerForm.passwordRepeat.value;
+
+    if (password !== passwordRepeat) {
+      alert("Passwords do not match!");
+      return;
     }
 
-    // Disables the button after the form has been submitted already:
-    registerForm.registerbutton.disabled = true;
+    const registerData = {
+      fullName: fullName,
+      username: username,
+      password: password,
+    };
 
-    // Time to actually process the login using the function from auth.js!
-    register(registerData);
+    registerForm.registerButton.disabled = true;
+
+    fetch(`${apiBaseURL1}/api/users`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(registerData),
+    })
+      .then((response) => response.json())
+      .then((user) => {
+        alert("Congratulations! Your account has been created.");
+        window.location.assign("../posts/posts.html"); // Redirect to posts page
+      })
+      .catch((error) => {
+        alert("Error: " + error.message);
+        registerForm.registerButton.disabled = false;
+      });
+  };
 };
+
+
+
+
