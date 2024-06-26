@@ -24,23 +24,44 @@
   <body>
     <header></header>
 
-    <main>
-      <h1>Login</h1>
-      <form id="login">
-        <div>
-          <label for="username">Username</label>
-          <input type="text" id="username" minlength="3" />
-        </div>
+    <main class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h1 class="card-title">Login</h1>
+              <form id="login">
+                <div class="mb-3">
+                  <label for="username" class="form-label">Username</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="username"
+                    minlength="3"
+                    required
+                  />
+                </div>
 
-        <div>
-          <label for="password">Password</label>
-          <input type="password" id="password" minlength="6" />
-        </div>
+                <div class="mb-3">
+                  <label for="password" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    minlength="6"
+                    required
+                  />
+                </div>
 
-        <button id="loginButton" type="submit">Login</button>
-      </form>
+                <button id="loginButton" type="submit" class="btn btn-primary">
+                  Login
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-
     <footer></footer>
 
     <!-- Page-specific code -->
