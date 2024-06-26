@@ -24,12 +24,12 @@ Content-Type: application/json
 
 ### Step 3) GET Users
 GET  http://microbloglite.us-east-2.elasticbeanstalk.com/api/users
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5MzM1NzMwLCJleHAiOjE3MTk0MjIxMzB9.yKAU6kQGy0fAs8a8YO_9VjL9xTualy4sRFxWpmIonAg
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5NDMxNTI2LCJleHAiOjE3MTk1MTc5MjZ9.8wxFb9NZaTF547zqwGKSL6LwUHjid82HcWjRbVptaiA
 
 
 ### Step 4) GET One User
 GET http://microbloglite.us-east-2.elasticbeanstalk.com/api/users/Jahir
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5MzM1NzMwLCJleHAiOjE3MTk0MjIxMzB9.yKAU6kQGy0fAs8a8YO_9VjL9xTualy4sRFxWpmIonAg
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5NDMxNDUzLCJleHAiOjE3MTk1MTc4NTN9.B1NDui0k34Q7FOXSYdQ2MZaVAsZ3slRj3E49G1oni78
 
 
 
@@ -44,14 +44,13 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikpha
 
 ### Step 6) GET Posts
 GET http://microbloglite.us-east-2.elasticbeanstalk.com/api/posts/
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5MzM1NzMwLCJleHAiOjE3MTk0MjIxMzB9.yKAU6kQGy0fAs8a8YO_9VjL9xTualy4sRFxWpmIonAg
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5NDMxNzA5LCJleHAiOjE3MTk1MTgxMDl9.8lExXNTfPO0rhnUhVYoKyizCb42C9u6PcCZ3-P5rwxY
 
 # 6675a0a2fbf13c2cc0eaf6e3
 
 ### Step 6B) GET Post
 GET http://microbloglite.us-east-2.elasticbeanstalk.com/api/posts/667b1f05480200fd7dfa4d7f
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5MzM1NzMwLCJleHAiOjE3MTk0MjIxMzB9.yKAU6kQGy0fAs8a8YO_9VjL9xTualy4sRFxWpmIonAg
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5NDMxNzg0LCJleHAiOjE3MTk1MTgxODR9.VAK5JLxGktIZdquLNiMsFweGKaR4w_KPs-ED36w5JMY
 
 ### Step 7) DELETE Post
 DELETE  http://microbloglite.us-east-2.elasticbeanstalk.com/api/posts/667b1f05480200fd7dfa4d7f
@@ -60,8 +59,7 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ikpha
 ### Step 8) Update User
 PUT  http://microbloglite.us-east-2.elasticbeanstalk.com/api/users/Jahir
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5MzM1NzMwLCJleHAiOjE3MTk0MjIxMzB9.yKAU6kQGy0fAs8a8YO_9VjL9xTualy4sRFxWpmIonAg
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5NDMxODU2LCJleHAiOjE3MTk1MTgyNTZ9.eMrWFukxIG_LgrLq2kpS7kFMYUbSzmzANYwNRaq030U
 
 {
   "fullName": "Jahir Jackson",
