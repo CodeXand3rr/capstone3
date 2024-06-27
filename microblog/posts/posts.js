@@ -3,7 +3,7 @@
 "use strict";
 
 const token =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5NDE2MTkwLCJleHAiOjE3MTk1MDI1OTB9.4xr8-ixq7MjaM1aoZKEpQuOWzPF9NXFvu5gsFRFXaas";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5NTAzMjQ0LCJleHAiOjE3MTk1ODk2NDR9.Vswut5G_XVz5WmUgZUpHKOMsIrJiR8TZdkwvqBtoxYY";
 
 document.addEventListener("DOMContentLoaded", function () {
   const postsContainer = document.getElementById("postsContainer");
