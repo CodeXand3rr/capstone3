@@ -1,49 +1,56 @@
-/* index.css */
-
-body {
-    font-family: Arial, sans-serif;
-  }
-  
-  header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #e9ecef;
-  }
-  
-  header nav a {
-    text-decoration: none;
-    color: #007bff;
-  }
-  
-  header nav a:hover {
-    text-decoration: underline;
-  }
-  
-  main.container {
-    margin-top: 2em;
-    text-align: center;
-  }
-  
-  .container-overlay {
-    background-color: #ffffff;
-    padding: 2em;
-    border-radius: 0.25rem;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  }
-  
-  .container-overlay h2,
-  .container-overlay h3 {
-    margin-bottom: 1em;
-  }
-  
-  .btn {
-    margin: 0.5em 0;
-  }
-  
-  /* Adding space between the buttons */
-  .btn + .btn {
-    margin-left: 10px;
-  }
+/* body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: #ffccd5 !important;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+.navbar-brand:hover, .nav-link:hover {
+  color: #ccc !important;
+}
+.jumbotron {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255, 0.1);
+  border: 1px solid #444;
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+.btn-primary:hover, .btn-secondary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.welcome-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.lead-text {
+  font-size: 1.25rem;
+}
+.horizontal-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+} */
