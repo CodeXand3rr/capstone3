@@ -39,7 +39,7 @@ Content-Type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkphaGlyIiwiaWF0IjoxNzE5NTAyOTc1LCJleHAiOjE3MTk1ODkzNzV9.ndlH4ceFhSo9v1gGqgmvvhVu9xk69-_4YN6eJMHuPZU
 
 {
-  "text": "Hello World"
+  "text": "me"
 }
 
 ### Step 6) GET Posts
