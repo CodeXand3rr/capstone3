@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
     <!-- Global CSS (CSS rules you want applied to all pages) -->
     <link rel="stylesheet" href="global.css" />
 
@@ -15,31 +18,35 @@
 
     <style>
       body {
-        background-color: #f8f9fa; /* Light gray background */
-      }
-      .card {
-        padding: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      .container {
-        margin-top: 50px;
-      }
-      .navbar-brand,
-      .nav-link {
-        color: #e83e8c !important; /* Pink links */
-      }
-      .navbar {
-        background-color: #ffffff; /* White navbar background */
-      }
-      .navbar-brand:hover,
-      .nav-link:hover {
-        color: #ad1f6d !important; /* Dark pink on hover */
-      }
-    </style>
-
+                 background-color: #50554b; 
+                 color: #000; /* Black text */
+             }
+          
+          .navbar {
+                 background-color: #515a4a; 
+             }
+          main {
+              padding: 20px;
+              text-align: center; /* Center align content */
+          }
+          footer {
+                 background-color: #50554b; 
+              
+              color: #ffffff; /* White text */
+              text-align: center;
+              padding: 10px;
+              position: fixed;
+              bottom: 0;
+              width: 100%;
+          }
+     
+          .navbar-brand, .nav-link {
+                 color: #fff !important; /* White links */
+             }
+     </style>
     <script src="auth.js"></script>
-  </head>
-  <body>
+</head>
+<body>
     <!-- Navigation Bar -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -60,7 +67,7 @@
         <div class="col-md-6">
           <div class="card">
             <div class="card-body">
-              <h1 class="card-title">Register</h1>
+              <h1 class="card-title text-center">Register</h1>
               <form id="register">
                 <div class="mb-3">
                   <label for="fullName" class="form-label">Full Name</label>
@@ -96,7 +103,14 @@
       </div>
     </main>
 
-    <footer></footer>
+    <footer class="text-center mt-5">
+      &copy; 2024 Microblog
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
     <script src="register.js"></script>
-  </body>
+</body>
 </html>
